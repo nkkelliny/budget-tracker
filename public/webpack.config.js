@@ -3,8 +3,8 @@ const path = require("path");
 
 const config = {
   entry: {
-    app: "./public/index.js",
-    transaction: "./models/transaction.js"
+    app: "/index.js",
+    transaction: "../models/transaction.js"
   },
   output: {
     path: __dirname + "/dist",
